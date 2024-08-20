@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://random:random@cluster0.lxkucbf.mongodb.net/" , tlsAllowInvalidCertificates=True)
+client = MongoClient("LINK" , tlsAllowInvalidCertificates=True)
 db = client["ytmanager"]
 video_collection = db["videos"]
 print(video_collection)
